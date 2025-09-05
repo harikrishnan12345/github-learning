@@ -1,0 +1,10 @@
+on: push 
+
+jobs:
+  print_job: 
+      name: "my first job"
+      runs_on : ubuntu-latest
+      Steps : 
+        - name : "Echo statement"
+          run : echo "hello world"
+    
